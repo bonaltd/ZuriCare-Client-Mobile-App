@@ -1,0 +1,19 @@
+{
+  "name": "zuricare-backend",
+  "version": "1.0.0",
+  "description": "ZuriCare API - Patient app + Healthcare dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node scripts/seed-demo.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "mysql2": "^3.11.0",
+    "uuid": "^11.0.3"
+  }
+}
